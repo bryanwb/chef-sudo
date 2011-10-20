@@ -1,6 +1,6 @@
 #
 # Cookbook Name:: sudo
-# Recipe:: default
+# Recipe:: sudoers_d 
 #
 # Copyright 2008-2011, Bryan W. Berry (bryan.berry@gmail.com) 
 #

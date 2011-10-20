@@ -69,12 +69,12 @@ grant sudo privileges to any sudoers users besides root.
 
 Recipes adding commands to /etc/sudoers.d/ should look like this
 
-template "/etc/sudoers.d/foo" do
-	source "foo.sudoers"
-	mode 0440
-  owner "root"
-  group "root"
-end
+	template "/etc/sudoers.d/foo" do
+		source "foo.sudoers"
+		mode 0440
+		owner "root"
+		group "root"
+	end
 
 
 LICENSE AND AUTHOR
